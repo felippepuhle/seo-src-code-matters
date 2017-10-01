@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["es2015", {
+      "modules": false
+    }],
+    "react",
+    "stage-0"
+  ],
+  "compact": "true",
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-react-jsx-source"
+      ]
+    }
+  }
+}
