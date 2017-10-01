@@ -19,6 +19,6 @@ const slide = () => (
   </ContentSlide>
 );
 
-slide.title = 'A simple slide 2';
+slide.title = 'A simple slide';
 
 export default slide;

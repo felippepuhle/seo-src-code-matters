@@ -1,24 +1,19 @@
 import React from 'react';
-import { ContentSlide, Step } from 'react-presents';
+import { TitleSlide } from '../common';
 
 const slide = () => (
-  <ContentSlide>
+  <TitleSlide>
     <h1>{slide.title}</h1>
-    <ul>
-      <li>Slides can contain multiple steps.</li>
-      <Step index={1} exact>
-        <li>Sub-text can appear only for a specific step</li>
-      </Step>
-      <Step index={2}>
-        <li>Or it can be additive</li>
-      </Step>
-      <Step index={3}>
-        <li>(By default it is additive)</li>
-      </Step>
-    </ul>
-  </ContentSlide>
+    <h2>
+      <TitleSlide.FontAwesome icon="github" />{' '}
+      <a href="https://github.com/bvaughn/react-presents">
+        github.com/felippepuhle/seo-src-code-matters
+      </a>
+    </h2>
+    <p>(Use the right and left arrow keys to navigate)</p>
+  </TitleSlide>
 );
 
-slide.title = 'A simple slide';
+slide.title = 'SEO - Why your source code matters?';
 
 export default slide;
