@@ -30,6 +30,12 @@ const slide = () => (
           How to use HTML meta tags
         </a>
       </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">Microdata (HTML)</a>
+      </li>
+      <li>
+        <a href="http://schema.org/">schema.org</a>
+      </li>
     </ul>
   </ContentSlide>
 );
