@@ -16,20 +16,14 @@ const slide = () => (
 
     <Step index={1}>
       <div>
-        <ContentSlide.SubTitle>Off-Site SEO</ContentSlide.SubTitle>
+        <ContentSlide.SubTitle>How they work</ContentSlide.SubTitle>
         <ul>
+          <li>Crawlers are very active</li>
           <li>
-            Actions taken outside of your own website to impact your rankings within search engine
-            results pages
+            Googlebot will often visit a website several times a day, checking for updates or new
+            information
           </li>
-          <li>
-            Other reputable places on the Internet (pages, sites, people, etc.) linking to or
-            promoting your website
-          </li>
-          <li>
-            Getting links from other sites (especially those that are reputable and trustworthy)
-          </li>
-          <li>It will "vouches" the quality of your content</li>
+          <li>Crawlers are on the lookout for sites that contain high density of keywords</li>
         </ul>
       </div>
     </Step>

@@ -18,6 +18,7 @@ const slide = () => (
 <head>
   <title>Not a Meta Tag, but required anyway </title>
   <meta name="description" content="Awesome Description Here">
+  <meta name="keywords" content="awesome,description,here">
   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 </head>
         `}
