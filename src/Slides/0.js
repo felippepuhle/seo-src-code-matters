@@ -6,7 +6,7 @@ const slide = () => (
     <h1>{slide.title}</h1>
     <h2>
       <TitleSlide.FontAwesome icon="github" />{' '}
-      <a href="https://github.com/bvaughn/react-presents">
+      <a href="https://github.com/felippepuhle/seo-src-code-matters">
         github.com/felippepuhle/seo-src-code-matters
       </a>
     </h2>
