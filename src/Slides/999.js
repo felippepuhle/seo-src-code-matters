@@ -36,6 +36,11 @@ const slide = () => (
       <li>
         <a href="http://schema.org/">schema.org</a>
       </li>
+      <li>
+        <a href="https://selfstartr.com/search-marketing-ux/">
+          5 Experts Explain Why Sweet UX is Vital For Search Marketing
+        </a>
+      </li>
     </ul>
   </ContentSlide>
 );
