@@ -6,7 +6,7 @@ const slide = () => (
   <ContentSlide>
     <ContentSlide.Title>{slide.title}</ContentSlide.Title>
     <ul>
-      <li>These tags is not displayed</li>
+      <li>These tags are not displayed</li>
       <li>Helps to tell search engines and users what your site is about</li>
     </ul>
 
